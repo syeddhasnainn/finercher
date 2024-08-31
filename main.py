@@ -5,7 +5,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from tavily import TavilyClient
 import requests
-import string
 from parsel import Selector
 from rich.console import Console
 from rich.table import Table
@@ -31,13 +30,6 @@ def create_table(company):
     table.add_column("Sentiment", style="magenta")
     table.add_column("Confidence Score", style="blue")
     return table
-
-
-def cleanup_string(input_string):
-    cleaned_string = input_string.strip()
-    cleaned_string = " ".join(cleaned_string.split())
-    cleaned_string = "".join(filter(lambda x: x in string.printable, cleaned_string))
-    return cleaned_string
 
 
 async def fetch(url):
