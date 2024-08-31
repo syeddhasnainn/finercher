@@ -1,0 +1,10 @@
+aiohttp==3.9.3
+beautifulsoup4==4.12.3
+openai==1.43.0
+parsel==1.8.1
+pick==2.3.2
+pydantic==2.8.2
+python-dotenv==1.0.1
+Requests==2.32.3
+rich==13.8.0
+tavily_python==0.4.0
