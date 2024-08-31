@@ -2,6 +2,8 @@
 
 This project is a Python-based tool that analyzes earnings reports for selected companies using AI-powered sentiment analysis.
 
+![Earnings Report Analyzer](output.png)
+
 ## Features
 
 - Fetches latest earnings reports from multiple sources
@@ -33,3 +35,4 @@ This project is a Python-based tool that analyzes earnings reports for selected 
    OPENAI_API_KEY=your_openai_api_key_here
    TAVILY_API_KEY=your_tavily_api_key_here
    ```
+4. Run the script
