@@ -2,7 +2,7 @@
 
 This project is a Python-based tool that analyzes earnings reports for selected companies using AI-powered sentiment analysis.
 
-![Earnings Report Analyzer](output.png)
+<img src="output.png" alt="Earnings Report Analyzer" width="400"/>
 
 ## Features
 
